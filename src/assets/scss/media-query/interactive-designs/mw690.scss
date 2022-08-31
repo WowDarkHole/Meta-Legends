@@ -1,0 +1,39 @@
+@media only screen and (max-width: 690px) {
+    .container {
+        .info-container {
+            width: 100%;
+            height: 45%;
+            padding: 1rem 0 0 0;
+
+            .info-block {
+                flex-direction: column;
+                align-items: center;
+
+                .picture {
+                    width: 3rem;
+                    height: 3rem;
+                    min-width: initial;
+                    min-height: 3rem;
+                    margin-bottom: 1rem;
+                }
+
+                .text-container {
+                    padding-left: 0;
+                    text-align: center;
+                    
+                    .title {
+                        font-size: 1rem;
+                    }
+
+                    .subtitle {
+                        font-size: 0.8rem;
+                    }
+
+                    .description {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+}

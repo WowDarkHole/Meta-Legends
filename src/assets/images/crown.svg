@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="116" viewBox="0 0 128 116">
+  <defs>
+    <filter id="Union_1" x="0" y="0" width="128" height="116" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#d68ae1"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Union_1)">
+    <path id="Union_1-2" data-name="Union 1" d="M0,26V.12L10.648,11.682,19,0l8.355,11.687L38,.12V26Z" transform="translate(45 45)" fill="#db70c0" opacity="0.999"/>
+  </g>
+</svg>

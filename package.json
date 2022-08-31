@@ -1,0 +1,76 @@
+{
+  "name": "meta-legends",
+  "version": "0.1.0",
+  "engines": {
+    "node": "16.x"
+  },
+  "private": true,
+  "scripts": {
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "atropos": "^1.0.1",
+    "core-js": "^3.6.5",
+    "ethers": "^5.5.1",
+    "express": "^4.17.1",
+    "gsap": "^3.8.0",
+    "konami": "^1.6.2",
+    "serve-static": "^1.14.1",
+    "swiper": "^7.3.1",
+    "three": "^0.133.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0",
+    "walletlink": "^2.2.8",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.8.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^7.0.39",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.2.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "vue/no-unused-components": "off",
+      "vue/no-irregular-whitespace": "off",
+      "vue/no-deprecated-filter": "off",
+      "vue/no-parsing-error": [
+        "error",
+        {
+          "invalid-first-character-of-tag-name": false
+        }
+      ]
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
